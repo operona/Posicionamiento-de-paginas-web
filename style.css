@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+
+}
+
+#main {
+  display: grid;
+  grid-template-areas: 'h h h h'
+                       'i i i i'
+                       'a a e e'
+                       'b b f f'
+                       'c c g g'
+                       'd d j j';
+   width: 570px;
+   background-color: rgb(225, 249, 246);
+   border: thin solid red;
+   border-color: rgb(153, 182, 185);
+   border-width: 6px;
+   border-radius: 7px;
+}
+
+#nombre {
+  position: relative;
+  left: 185px;
+  grid-area: h;
+  width: 600px;
+  height: 50px;
+}
+
+#image {
+  position: relative;
+  grid-area: i;
+  width: 600px;
+  left: 5px;
+}
+
+#stats-lt1 {
+  position: relative;
+  grid-area: a;
+  width: 240px;
+  height: 30px;
+  left: 15px;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: rgb(209, 244, 246);
+}
+
+#stats-lt2 {
+  position: relative;
+  grid-area: b;
+  width: 240px;
+  height: 30px;
+  left: 15px;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: rgb(209, 244, 246);
+}
+
+#stats-lt3 {
+  position: relative;
+  grid-area: c;
+  width: 240px;
+  height: 30px;
+  left: 15px;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: rgb(209, 244, 246);
+}
+
+#stats-lt4 {
+  position: relative;
+  grid-area: d;
+  width: 240px;
+  height: 30px;
+  left: 15px;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: rgb(209, 244, 246);
+}
+
+#stats-rt1 {
+  position: relative;
+  grid-area: e;
+  width: 240px;
+  height: 30px;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: rgb(209, 244, 246);
+}
+
+#stats-rt2 {
+  position: relative;
+  grid-area: f;
+  width: 240px;
+  height: 30px;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: rgb(209, 244, 246);
+}
+
+#stats-rt3 {
+  position: relative;
+  grid-area: g;
+  width: 240px;
+  height: 30px;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: rgb(209, 244, 246);
+}
+
+#stats-rt4 {
+  position: relative;
+  grid-area: j;
+  width: 240px;
+  height: 30px;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: rgb(209, 244, 246);
+}
+
+.barbaros {
+  width: 550px;;
+  border: thin solid rgb(153, 182, 185);
+  border-width: 3px;
+  border-radius: 10px;
+}
