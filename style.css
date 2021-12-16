@@ -21,10 +21,11 @@
 
 #nombre {
   position: relative;
-  left: 185px;
+  left: 125px;
+  top: 15px;
   grid-area: h;
   width: 600px;
-  height: 50px;
+  height: 70px;
 }
 
 #image {
@@ -44,6 +45,7 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: rgb(209, 244, 246);
+  margin: 0.05cm;
 }
 
 #stats-lt2 {
@@ -56,6 +58,7 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: rgb(209, 244, 246);
+  margin: 0.05cm;
 }
 
 #stats-lt3 {
@@ -68,6 +71,7 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: rgb(209, 244, 246);
+  margin: 0.05cm;
 }
 
 #stats-lt4 {
@@ -80,6 +84,7 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: rgb(209, 244, 246);
+  margin: 0.05cm;
 }
 
 #stats-rt1 {
@@ -91,6 +96,7 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: rgb(209, 244, 246);
+  margin: 0.05cm;
 }
 
 #stats-rt2 {
@@ -102,6 +108,7 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: rgb(209, 244, 246);
+  margin: 0.05cm;
 }
 
 #stats-rt3 {
@@ -113,6 +120,7 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: rgb(209, 244, 246);
+  margin: 0.05cm;
 }
 
 #stats-rt4 {
@@ -124,6 +132,7 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: rgb(209, 244, 246);
+  margin: 0.05cm;
 }
 
 .barbaros {
@@ -131,4 +140,17 @@
   border: thin solid rgb(153, 182, 185);
   border-width: 3px;
   border-radius: 10px;
+}
+
+
+.titulo {
+  font: oblique  250% monospace;
+  font-weight: 900;
+  color: #9d5232;
+   text-shadow: 2px 2px #ffba81;
+}
+
+.stats {
+  padding-left: 0.2cm;
+  padding-top: 0.1cm;
 }
